@@ -1,0 +1,66 @@
+body{
+    background: silver;
+}
+
+div{
+    border: 1px dotted red;
+}
+
+h1{
+    border: 1px solid green;
+}
+
+.boxmodel1{
+    border: 3px solid red;
+    padding: 30px;
+    margin: 10px;
+}
+
+.blueboxmodel{
+border: 3px dashed blue;
+color: blue;
+padding: 20px;
+}
+
+.greenboxmodel{
+    border: 3px dashed green;
+    padding: 20px;
+    margin: 10px;
+}
+
+.division{
+    float: left;
+    width: 33.33%;
+}
+
+.division2{
+    float: left;
+    width: 50%
+}
+
+.border{
+    border: 1px blue;
+}
+
+.mainbluebox{
+   display: inline;
+    border: 3px dashed blue; 
+    padding: 1em;
+    margin:  1em;
+}
+
+.lilm{
+    margin: 1em;
+    padding: 1em;
+}
+
+.mainredbox{
+    display: inline-block;
+    border: 3px dashed red; 
+    padding: 1em;
+    margin:  1em;
+}
+
+*{
+    box-sizing: border-box;
+}

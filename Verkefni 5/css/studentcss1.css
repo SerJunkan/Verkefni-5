@@ -1,0 +1,63 @@
+/*Student css
+#Seimur S.
+#Vefhönnnun 2018*/
+
+.headerclass1{
+display: grid;
+grid-template-columns:  1fr 1fr;
+width: 960px;
+margin: 0 auto;
+color: white;
+}
+
+body{
+background-color: blue;
+font-family: fantasy;
+}
+
+.mid{
+    background: linear-gradient(rgb(97, 97, 204), lightblue);
+    text-align: center
+}
+.transp{
+    background: rgba(28, 85, 207,50%)
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.choise{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.shade1{
+    background: linear-gradient(rgb(97, 97, 204), lightblue);
+    text-align: center
+}
+
+.shade2{
+    background: linear-gradient(lightblue,rgb(97, 97, 204));
+    text-align: center
+}
+
+.arrow1{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    background: cyan;
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+}
+
+.arrow2{
+    position: fixed;
+    bottom: 0px;
+    right: 48px;
+    font-size: 55px;
+}

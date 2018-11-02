@@ -1,0 +1,63 @@
+body {background-color: white}
+
+
+h1.color-blue{
+    color: blue;
+    text-align: center;
+    font-family: fantasy;
+}
+
+h1.color-red{
+    color: red;
+    text-align: center;
+    font-family: fantasy;
+}
+
+h2.color-vine-red{
+color: maroon
+}
+
+span.color-blue2{
+    color: blue
+}
+
+span.color-red2{
+    color: red;
+}
+
+
+body{
+    width: 800px
+}
+
+.padding{
+    padding-left: 60px
+}
+
+body{
+    border: 1px solid blue;
+}
+
+ul.color-green-1{
+    color: green;
+}
+
+strong.red-elvis{
+    color: red;
+}
+
+em.basic-blue{
+    color: blue;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: aqua;
+}

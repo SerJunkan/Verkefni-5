@@ -1,0 +1,66 @@
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "Haus Haus Haus Haus Haus"
+    "Nav1 Nav2 Nav3 Nav4 Nav5"
+    "vinstri vinstri vinstri midja haegri"
+    "fotur fotur fotur fotur fotur";
+}
+
+.H{
+    grid-area: Haus;
+    background-color: darkcyan;
+    text-align: center;
+}
+
+.hl1{
+    grid-area: Nav1;
+    background-color: crimson;
+}
+
+.hl2{
+    grid-area: Nav2;
+    background-color: crimson;
+}
+
+.hl3{
+    grid-area: Nav3;
+    background-color: crimson;
+}
+
+.hl4{
+    grid-area: Nav4;
+    background-color: crimson;
+}
+
+.hl5{
+    grid-area: Nav5;
+    background-color: crimson;
+}
+
+.vinstri{
+    grid-area: vinstri;
+    background-color: gray;
+    font-family: fantasy;
+    padding: 25px;
+}
+
+.midja{
+    grid-area: midja;
+   background-color: lightgrey;
+}
+
+.haegri{
+    grid-area: haegri;
+    background-color: lightgray;
+}
+
+.fotur{
+    grid-area: fotur;
+    background-color: aqua;
+}
+
+.backroundcolor1{
+    background-color: black;
+}
